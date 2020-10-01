@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INICIO</title>
+    <link rel="stylesheet" href="css/cssIndex.css">
+    <script src="js/corregir.js"></script>
+    <script src="js/validar.js"></script>
+
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li> <a href="index.html">TRIVIA CAPITALES</a></li>
+            <li><a href="piedrapapeltijera.html">PIEDRA PAPEL O TIJERA</a></li>
+        </ul>
+    </nav>
+
+    <div id="container">
+        <h2>TRIVIA DE CAPITALES</h2>
+        <form name="trivia">
+            <h3>¿Cual es la capital de Brasil?</h3>
+            <input type="radio" name="p1" value="a">Brasilia
+            <input type="radio" name="p1" value="b">Rio de Janeiro
+            <input type="radio" name="p1" value="c">Sao Pablo
+            <input type="radio" name="p1" value="d">Salvador de Bahia
+            <br>
+            <h3>¿Cual es la capital de Australia?</h3>
+            <input type="radio" name="p2" value="a">Sidney
+            <input type="radio" name="p2" value="b">Canberra
+            <input type="radio" name="p2" value="c">Melbourne
+            <input type="radio" name="p2" value="d">Adelaida
+            <br>
+            <h3>¿Cual es la capital de Singapur?</h3>
+            <input type="radio" name="p3" value="a">Andora
+            <input type="radio" name="p3" value="b">Yuba
+            <input type="radio" name="p3" value="c">Singapur
+            <input type="radio" name="p3" value="d">Kampala
+            <br>
+            <h3>¿Cual es la capital de Serbia?</h3>
+            <input type="radio" name="p4" value="a">Nis
+            <input type="radio" name="p4" value="b">Tirana
+            <input type="radio" name="p4" value="c">Skopje
+            <input type="radio" name="p4" value="d">Belgrado
+            <br>
+            <h3>¿Cual es la capital de Myanmar?</h3>
+            <input type="radio" name="p5" value="a">Buyumbura
+            <input type="radio" name="p5" value="b">Naipydo
+            <input type="radio" name="p5" value="c">Vientian
+            <input type="radio" name="p5" value="d">Daca
+            <br><br>
+            <div id = "alertaresult"></div><br>
+            <input type="submit" value="Corregir" onclick=" return corregir()">
+            
+            <div id="resultado"></div>
+        </form>
+    </div>
+
+    <div id="campos">
+        <h2>DATOS DEL JUGADOR</h2>
+        <form>
+            <label for="nombre">NOMBRE</label><br>
+            <input type="text" id="nombre" required="" onblur="mayus()" maxlength="35"><br>
+            <label for="email">EMAIL</label><br>
+            <input type="email" id="email" required="" placeholder="yourname@example.com"><br>
+            <div id="alerta"></div>
+            <input type="submit" value="Enviar" onclick=" mail()">
+        </form>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
