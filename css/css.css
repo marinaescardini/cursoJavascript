@@ -1,0 +1,89 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+
+ img {
+   
+    height: 170px;  
+    width: 180px;
+    margin: 0 30px;
+    border-radius: 50%;
+    cursor: pointer;
+    
+     
+}
+
+img:hover
+    {
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+#efecto {
+    
+    width: fit-content; 
+    display: flex;
+    align-items: center;
+    text-align:center;
+    margin: auto;
+    margin-top: 30px;
+    
+    
+}
+
+#texto{
+    display: flex;
+    align-items: center;
+    text-align:center;
+    margin: auto;
+    margin-top: 20px;
+    vertical-align: middle;
+    width: fit-content; 
+
+}
+
+#juego{
+    width: fit-content; 
+    margin: auto;  
+    vertical-align: middle;
+    display: flex;
+    margin-top: 20px;   
+    
+}
+
+h1{
+
+    width: 100%;
+    text-align: center;
+}
+h2{
+
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
